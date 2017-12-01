@@ -1,11 +1,12 @@
-package kata6;
+package kata6.model;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 public class Histogram<T> {
 
-    private final HashMap<T, Integer> map = new HashMap<>();
+    private final Map<T, Integer> map = new HashMap<>();
 
     public Integer get(Object key) {
         return map.get(key);
