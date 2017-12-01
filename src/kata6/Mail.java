@@ -1,4 +1,4 @@
-package kata4v2017;
+package kata6;
 
 public class Mail {
 
